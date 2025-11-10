@@ -18,7 +18,11 @@ Sistema completo de gestão desenvolvido para clínicas e profissionais de saúd
 
 ## 🎯 Sobre o Projeto
 
-Cedro SO é uma plataforma moderna e completa para gestão de clínicas e consultórios de saúde mental. O sistema foi desenvolvido com foco em usabilidade, performance e escalabilidade, oferecendo uma experiência fluida tanto para profissionais quanto para pacientes.
+Este projeto centraliza fluxos de automação para atendimento e fechamento comercial usando o n8n. Ele integra canais de mensagem (ex.: WhatsApp via provedor/Chatwoot), Redis para orquestração de filas, Postgres para persistência, Asaas para clientes/cobranças e um agente LLM (LangChain) que decide e aciona ferramentas durante a conversa.
+
+### O que é o n8n?
+O n8n é uma plataforma de automação de fluxos (workflows) de código aberto. Você cria pipelines visuais conectando “nós” (nodes) que recebem eventos, transformam dados, chamam APIs, acessam bancos e muito mais. Cada fluxo exportado em JSON pode ser versionado neste repositório e importado na UI do n8n.
+
 
 ### Principais Características
 
